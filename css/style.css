@@ -1,0 +1,1146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&display=swap');
+
+/*	font-family: 'Open Sans', sans-serif;
+font-family: 'Permanent Marker', cursive; */
+
+
+/* 
+	// XX-Large devices (large desktops, 4200px and up)
+	@media (min-width: 1400px) and (max-width: 1600px) { ... } //
+
+	// X-Large devices (large desktops, 1200px and up)
+	@media (min-width: 1200px) and (max-width: 1399px) { ... } //
+
+	// Large devices (desktops, 992px and up)
+	@media (min-width: 992px) and (max-width: 1199px) { ... } //
+
+	// Medium devices (tablets, 768px and up)
+	@media (min-width: 768px) and (max-width: 991px) { ... } //
+
+	// Small devices (phones, 576px and up)
+	@media (min-width: 576px) and (max-width: 767px) { ... } //
+
+*/
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* XX-LARGE DEVICES */
+
+@media (min-width: 1400px)
+
+{
+
+body{
+	background-color: #1A2FBF;
+}
+
+main{
+	width: 90%;
+	min-height: 900px;
+	max-height: 1600px;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	color: #ffffff;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: auto;
+	padding-right: auto;
+	padding-top: 2px;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	letter-spacing: 8px;
+	text-shadow: 5px 5px 5px #ff0000;
+}
+
+nav{
+	width: 90%;
+	height: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ff0000;
+}
+
+section{
+	width: 100%;
+	min-height: 725px;
+	max-height: 1525px;
+	background: 
+	url(../img/separador_buzz.png) no-repeat center,
+	linear-gradient(#000000 0%, #004c39 50%, #1e8c45 100%);
+	color: #ffffff;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+article{
+
+}
+
+article div{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+	height: 75px;
+	width: 100%;
+}
+
+h3{
+	font-family: 'Permanent Marker', cursive;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px #ff0000;
+}
+
+h6{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+ul li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	list-style: none;
+}
+
+
+/* ID/Class */
+
+
+.columna{
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 160px;
+	text-align: left;
+	clear: both;
+}
+
+.subtitulo-l{
+	float: left;
+	width: 450px;
+	margin-top: 10px;
+}
+
+.subtitulo-r{
+	float: right;
+	width: 450px;
+	margin-top: 10px;
+}
+
+#caja1{
+	float: left;
+	width: 450px;
+	height: 280px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	background-color: #000000;
+}
+
+#caja2{
+	float: right;
+	width: 450px;
+	height: 280px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 12px;
+	background-color: #000000;
+}
+
+#caja3{
+	float: left;
+	width: 450px;
+	height: 280px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 30px;
+	background-color: #000000;
+}
+
+#caja4{
+	float: right;
+	width: 450px;
+	height: 280px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 40px;
+	text-align: center;
+	background-color: #000000;
+}
+
+
+.textcolumn-caj3{
+	column-count: 2;
+	column-gap: 20px;
+	column-rule: 1px solid #ffffff;
+}
+
+.icon{
+	float: left;
+	margin-left: 10%;
+}
+
+.icon-title{
+	float: left;
+	margin-left: 2%;
+	margin-right: 5%;
+}
+
+.sid_malo{
+margin-left: 50px;
+}
+
+.logo-up{
+	height: 70px;
+	width: auto;
+	float: left;
+	margin-left: 3%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.nombre{
+	float: left;
+	margin-top: 27px;
+	margin-bottom: 27px;
+	margin-left: 37%;
+	text-decoration: none;
+}
+
+.disneypixar{
+	height: 55px;
+	width: auto;
+	float: right;
+	filter: invert(1);
+	margin-right: 2%;
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+
+.green{
+	color: #83EA23;
+}
+
+.red{
+	color: #BF1A2F;
+}
+
+}
+
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+
+/* X-LARGE DEVICES */
+
+@media (min-width: 1200px) and (max-width: 1399px)
+
+{
+
+body{
+	background-color: #1A2FBF;
+}
+
+main{
+	width: 90%;
+	min-height: 900px;
+	max-height: 1600px;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	color: #ffffff;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: auto;
+	padding-right: auto;
+	padding-top: 2px;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	letter-spacing: 8px;
+	text-shadow: 5px 5px 5px #ff0000;
+}
+
+nav{
+	width: 90%;
+	height: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ff0000;
+}
+
+section{
+	width: 100%;
+	min-height: 725px;
+	max-height: 1525px;
+	background: 
+	url(../img/separador_buzz.png) no-repeat center,
+	linear-gradient(#000000 0%, #004c39 50%, #1e8c45 100%);
+	color: #ffffff;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+article{
+
+}
+
+article div{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+	height: 75px;
+	width: 100%;
+}
+
+h3{
+	font-family: 'Permanent Marker', cursive;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px #ff0000;
+}
+
+h6{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+ul li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	list-style: none;
+}
+
+
+/* ID/Class */
+
+
+.columna{
+	width: 95%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 160px;
+	text-align: left;
+	clear: both;
+}
+
+.subtitulo-l{
+	float: left;
+	width: 450px;
+	margin-top: 10px;
+}
+
+.subtitulo-r{
+	float: right;
+	width: 450px;
+	margin-top: 10px;
+}
+
+#caja1{
+	float: left;
+	width: 450px;
+	height: 280px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	background-color: #000000;
+}
+
+#caja2{
+	float: right;
+	width: 450px;
+	height: 280px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 12px;
+	background-color: #000000;
+}
+
+#caja3{
+	float: left;
+	width: 450px;
+	height: 280px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 30px;
+	background-color: #000000;
+}
+
+#caja4{
+	float: right;
+	width: 450px;
+	height: 280px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 40px;
+	text-align: center;
+	background-color: #000000;
+}
+
+
+.textcolumn-caj3{
+	column-count: 2;
+	column-gap: 20px;
+	column-rule: 1px solid #ffffff;
+}
+
+.icon{
+	float: left;
+	margin-left: 10%;
+}
+
+.icon-title{
+	float: left;
+	margin-left: 2%;
+	margin-right: 5%;
+}
+
+.sid_malo{
+margin-left: 50px;
+}
+
+.logo-up{
+	height: 70px;
+	width: auto;
+	float: left;
+	margin-left: 3%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.nombre{
+	float: left;
+	margin-top: 27px;
+	margin-bottom: 27px;
+	margin-left: 37%;
+	text-decoration: none;
+}
+
+.disneypixar{
+	height: 55px;
+	width: auto;
+	float: right;
+	filter: invert(1);
+	margin-right: 2%;
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+
+.green{
+	color: #83EA23;
+}
+
+.red{
+	color: #BF1A2F;
+}
+
+}
+
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+
+/* LARGE DEVICES */
+
+@media (min-width: 992px) and (max-width: 1199px)
+
+{
+
+body{
+	background-color: #1A2FBF;
+}
+
+main{
+	width: 95%;
+	min-height: 900px;
+	max-height: 1600px;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	color: #ffffff;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: auto;
+	padding-right: auto;
+	padding-top: 2px;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	letter-spacing: 8px;
+	text-shadow: 5px 5px 5px #ff0000;
+}
+
+nav{
+	width: 90%;
+	height: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ff0000;
+}
+
+section{
+	width: 100%;
+	min-height: 725px;
+	max-height: 1525px;
+	background: 
+	url(../img/separador_buzz.png) no-repeat center,
+	linear-gradient(#000000 0%, #004c39 50%, #1e8c45 100%);
+	color: #ffffff;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+article{
+
+}
+
+article div{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+	height: 75px;
+	width: 100%;
+}
+
+h3{
+	font-family: 'Permanent Marker', cursive;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px #ff0000;
+}
+
+h6{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+ul li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	list-style: none;
+}
+
+
+/* ID/Class */
+
+
+.columna{
+	width: 95%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 160px;
+	text-align: left;
+	clear: both;
+}
+
+.subtitulo-l{
+	float: left;
+	width: 380px;
+	margin-top: 10px;
+}
+
+.subtitulo-r{
+	float: right;
+	width: 380px;
+	margin-top: 10px;
+}
+
+#caja1{
+	float: left;
+	width: 380px;
+	height: 260px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	background-color: #000000;
+	overflow: auto;
+}
+
+#caja2{
+	float: right;
+	width: 380px;
+	height: 260px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 12px;
+	background-color: #000000;
+	overflow: auto;
+}
+
+#caja3{
+	float: left;
+	width: 380px;
+	height: 260px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 30px;
+	background-color: #000000;
+	overflow: auto;
+}
+
+#caja4{
+	float: right;
+	width: 380px;
+	height: 260px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 40px;
+	text-align: center;
+	background-color: #000000;
+	overflow: auto;
+}
+
+
+.textcolumn-caj3{
+	column-count: 2;
+	column-gap: 20px;
+	column-rule: 1px solid #ffffff;
+}
+
+.icon{
+	float: left;
+	margin-left: 10%;
+}
+
+.icon-title{
+	float: left;
+	margin-left: 2%;
+	margin-right: 5%;
+}
+
+.sid_malo{
+margin-left: 50px;
+}
+
+.logo-up{
+	height: 70px;
+	width: auto;
+	float: left;
+	margin-left: 3%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.nombre{
+	float: left;
+	margin-top: 27px;
+	margin-bottom: 27px;
+	margin-left: 37%;
+	text-decoration: none;
+}
+
+.disneypixar{
+	height: 55px;
+	width: auto;
+	float: right;
+	filter: invert(1);
+	margin-right: 2%;
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+
+.green{
+	color: #83EA23;
+}
+
+.red{
+	color: #BF1A2F;
+}
+
+
+}	
+
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+
+/* MEDIUM DEVICES */
+
+@media (min-width: 768px) and (max-width: 991px)
+
+{
+
+body{
+	background-color: #1A2FBF;
+}
+
+main{
+	width: 98%;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	min-height: 100px;
+	max-height: 100px;
+	color: #ffffff;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: auto;
+	padding-right: auto;
+	padding-top: 2px;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	letter-spacing: 8px;
+	text-shadow: 5px 5px 5px #ff0000;
+}
+
+nav{
+	width: 90%;
+	height: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ff0000;
+}
+
+section{
+	width: 100%;
+	min-height: 1200px;
+	background: 
+	linear-gradient(#000000 0%, #004c39 50%, #1e8c45 100%);
+	color: #ffffff;
+}
+
+article{
+
+}
+
+article div{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+	background-color: #000000;
+	min-height: 75px;
+	max-height: 75px;
+	width: 100%;
+}
+
+h3{
+	font-family: 'Permanent Marker', cursive;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px #ff0000;
+}
+
+h6{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+ul li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	list-style: none;
+}
+
+
+/* ID/Class */
+
+
+.columna{
+	width: 95%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 160px;
+	text-align: left;
+	clear: both;
+}
+
+.subtitulo-l{
+	float: left;
+	width: 450px;
+	margin-top: 10px;
+	margin-left: 25%;
+}
+
+.subtitulo-r{
+	float: left;
+	width: 450px;
+	margin-top: 10px;
+	margin-left: 25%;
+}
+
+#caja1{
+	float: left;
+	width: 450px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	background-color: #000000;
+	overflow: auto;
+}
+
+#caja2{
+	float: left;
+	width: 450px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 12px;
+	background-color: #000000;
+	overflow: auto;
+}
+
+#caja3{
+	float: left;
+	width: 450px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 30px;
+	background-color: #000000;
+	overflow: auto;
+}
+
+#caja4{
+	float: left;
+	width: 450px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 40px;
+	text-align: center;
+	background-color: #000000;
+	overflow: auto;
+}
+
+
+.textcolumn-caj3{
+	column-count: 2;
+	column-gap: 20px;
+	column-rule: 1px solid #ffffff;
+}
+
+.icon{
+	float: left;
+	margin-left: 10%;
+}
+
+.icon-title{
+	float: left;
+	margin-left: 2%;
+	margin-top: 5px;
+	margin-right: 5%;
+	font-size: 55px;
+}
+
+.sid_malo{
+margin-left: 50px;
+}
+
+.logo-up{
+	height: 70px;
+	width: auto;
+	float: left;
+	margin-left: 3%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.nombre{
+	float: left;
+	margin-top: 27px;
+	margin-bottom: 27px;
+	margin-left: 24%;
+	text-decoration: none;
+}
+
+.disneypixar{
+	height: 55px;
+	width: auto;
+	float: right;
+	filter: invert(1);
+	margin-right: 2%;
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+
+.green{
+	color: #83EA23;
+}
+
+.red{
+	color: #BF1A2F;
+}
+
+}
+
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+
+/* SMALL DEVICES */
+
+@media (min-width: 576px) and (max-width: 767px)
+
+{
+
+body{
+	background-color: #1A2FBF;
+}
+
+main{
+	width: 99%;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	min-height: 100px;
+	max-height: 100px;
+	color: #ffffff;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: auto;
+	padding-right: auto;
+	padding-top: 2px;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	letter-spacing: 8px;
+	text-shadow: 5px 5px 5px #ff0000;
+}
+
+nav{
+	width: 90%;
+	height: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ff0000;
+}
+
+section{
+	width: 100%;
+	min-height: 1200px;
+	background: 
+	linear-gradient(#000000 0%, #004c39 50%, #1e8c45 100%);
+	color: #ffffff;
+}
+
+article{
+
+}
+
+article div{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+	background-color: #000000;
+	min-height: 75px;
+	max-height: 75px;
+	width: 100%;
+}
+
+h3{
+	font-family: 'Permanent Marker', cursive;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px #ff0000;
+}
+
+h6{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+ul li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	list-style: none;
+}
+
+
+/* ID/Class */
+
+
+.columna{
+	width: 95%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 160px;
+	text-align: left;
+	clear: both;
+}
+
+.subtitulo-l{
+	float: left;
+	width: 450px;
+	margin-top: 10px;
+
+}
+
+.subtitulo-r{
+	float: left;
+	width: 450px;
+	margin-top: 10px;
+
+}
+
+#caja1{
+	float: left;
+	width: 450px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	background-color: #000000;
+	overflow: auto;
+}
+
+#caja2{
+	float: left;
+	width: 450px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 12px;
+	background-color: #000000;
+	overflow: auto;
+}
+
+#caja3{
+	float: left;
+	width: 450px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 30px;
+	background-color: #000000;
+	overflow: auto;
+}
+
+#caja4{
+	float: left;
+	width: 450px;
+	border: 2px solid #ffffff;
+	padding: 12px;
+	padding-top: 40px;
+	text-align: center;
+	background-color: #000000;
+	overflow: auto;
+}
+
+
+.textcolumn-caj3{
+	column-count: 2;
+	column-gap: 20px;
+	column-rule: 1px solid #ffffff;
+}
+
+.icon{
+	float: left;
+	margin-left: 8%;
+}
+
+.icon-title{
+	float: left;
+	margin-left: 1%;
+	margin-top: 10px;
+	margin-right: 5%;
+	font-size: 40px;
+}
+
+.sid_malo{
+margin-left: 50px;
+}
+
+.logo-up{
+	height: 70px;
+	width: auto;
+	float: left;
+	margin-left: 3%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.nombre{
+	float: left;
+	margin-top: 27px;
+	margin-bottom: 27px;
+	margin-left: 24%;
+	text-decoration: none;
+}
+
+.disneypixar{
+	height: 55px;
+	width: auto;
+	float: right;
+	filter: invert(1);
+	margin-right: 2%;
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+
+.green{
+	color: #83EA23;
+}
+
+.red{
+	color: #BF1A2F;
+}
+
+}
